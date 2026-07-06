@@ -1,0 +1,84 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+h1{
+    background: linear-gradient(rgb(43, 49, 4),rgb(31, 9, 199));
+    background-clip: text;
+    color: transparent;
+    font-size: 4rem;
+    text-align: center;
+    border: solid;
+}
+
+body{
+    background-color: lightslategrey;
+    text-align: center;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box{
+    height: 19vmin;
+    width: 19vmin;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.1);
+    font-size: 10vmin;
+    color: darkred;
+    font-size: 3rem;
+    background-color: rgb(249, 247, 82);
+}
+
+#reset{
+    padding: 0.8rem;
+    font-size: 1.10rem;
+    background-color:rgb(41, 88, 176);
+    color: whitesmoke;
+    border-radius: 1rem;
+    border: 3px rgb(133, 214, 35) solid; 
+}
+
+#new{
+     padding: 0.8rem;
+    font-size: 1.10rem;
+    background-color:rgb(41, 88, 176);
+    color: whitesmoke;
+    border-radius: 1rem;
+    border: 3px rgb(133, 214, 35) solid; 
+}
+
+#msg{
+    background: linear-gradient(90deg, rgb(198, 35, 152),rgb(225, 27, 33));
+    background-clip: text;
+    color: transparent;
+    font-size: 10vmin;
+}
+
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.hide{
+    display: none;
+}
